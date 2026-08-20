@@ -14,5 +14,7 @@ int main()
     else{
         cout<<"fahhh"<<endl;
     }
+    int q=45;
+    cout<<(q>23?"greater":"smaller")<<endl;
     return 0;
 }
