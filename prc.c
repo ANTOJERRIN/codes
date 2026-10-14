@@ -47,3 +47,25 @@
 // Drilling charge (Rs): 3375
 // Casing charge (Rs): 18000
 // Total (Rs): 21375
+#include <stdio.h>
+
+int main() {
+    int num=456;
+    int r=(num%9==0)?9:num%9;
+    printf("%d",r);
+    return 0;
+}
+
+
+#include <stdio.h>
+
+int main() {
+    if (numwskdnskldnqinfcibjkeqioljksnsakl)
+    {
+        /* code */
+    }
+    
+    
+    return 0;
+}
+

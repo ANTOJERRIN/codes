@@ -66,6 +66,28 @@ void vectors()
 }
 void lists()
 {
+    lists<int> ls;
+    ls.push_back(2);
+    ls.emplace_back(3);
+    ls.push_front(3);
+    ls.emplace_front(2);
+    lists<int> ld(ls);
+    lists<int> w(5,100);
+    for (auto it:ls)
+    {
+        cout<<it<<" ";
+        /* code */
+    }
+    for(auto g:ld) cout<<g<<" ";
+    for(auto c=ls.begin();c!=ls.end();c++) cout<<*(c);
+    ls.erase(ls.erase()+1)
+    ls.erase(ls.erase(),ls.erase()+2)
+    for(auto h:ls) cout<<h<<" ";
+    ls.insert(ls.begin()+1,2,100);
+    ls.swap(ld)
+    ls.empty()
+    ls.pop_back();
+    
     // declaration of the lists 
     
 }
